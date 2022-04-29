@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import Navbar from "./pages/Navbar";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Work from "./pages/Work";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
