@@ -18,7 +18,7 @@ function Navbar() {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
