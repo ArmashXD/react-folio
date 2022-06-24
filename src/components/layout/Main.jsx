@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Main({ children, extraClasses, name }) {
   return (
-    <div name={name} className={`w-full h-screen bg-[#0a192f] ${extraClasses}`}>
+    <div name={name} className={`w-full h-screen bg-[#161616] ${extraClasses}`}>
       {children}
     </div>
   );
