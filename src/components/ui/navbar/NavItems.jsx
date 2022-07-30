@@ -1,15 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import list from "../../../utility/nav-list-items";
 import NavItem from "./NavItem";
+import { navItems } from "../../../content";
+import { generateUniqueKey } from "../../../utility/generate-unique-key";
 
 function NavItems({ ulClassName, liClassName, onClick }) {
   return (
     <ul className={ulClassName}>
-      {list.map((item) => {
+      {navItems.map((item, index) => {
         return (
             <NavItem
-              key={item.name}
+              key={generateUniqueKey(index)}
               name={item.name}
               smooth={item.smooth}
               duration={item.duration}
